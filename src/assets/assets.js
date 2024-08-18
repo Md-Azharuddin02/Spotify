@@ -111,7 +111,63 @@ export const albumsData = [
         image: img15,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#744210"
+    },
+    ,
+    {   
+        id:6,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
     }
+    ,
+    {   
+        id:7,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
+    }
+    ,
+    {   
+        id:9,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
+    }
+    ,
+    {   
+        id:9,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
+    },
+    {   
+        id:7,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
+    }
+    ,
+    {   
+        id:9,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
+    }
+    ,
+    {   
+        id:9,
+        name: "Happy Favorites",
+        image: img15,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#744210"
+    }
+
 ]
 
 export const songsData = [
