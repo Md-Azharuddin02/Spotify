@@ -1,25 +1,25 @@
-import { useContext } from 'react'
-import './App.css'
-import Display from './components/Display'
-import Player from './components/Player'
-import Sidebar from './components/Sidebar'
-import { PlayerContext } from './context/PlayerContext'
+import { useContext } from "react";
+import "./App.css";
+import Display from "./components/Display";
+import Player from "./components/Player";
+import Sidebar from "./components/Sidebar";
+import { PlayerContext } from "./context/PlayerContext";
 
 function App() {
-  const {audioRef, track}= useContext(PlayerContext)
+  const { audioRef, track } = useContext(PlayerContext);
 
   return (
     <>
-    <div className="h-screen bg-black">
-      <div className='h-[90%] flex'>
-        <Sidebar/>
-        <Display/>
+      <div className="h-screen bg-black">
+        <div className="h-[90%] flex">
+          <Sidebar />
+          <Display />
+        </div>
+        <Player />
+        <audio ref={audioRef} src={track.file} preload="auto" />
       </div>
-      <Player/>
-      <audio ref={audioRef} src={track.file} preload='auto'/>
-    </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
