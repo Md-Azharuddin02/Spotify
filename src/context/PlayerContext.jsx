@@ -8,7 +8,7 @@ const PlayerContextProvide = (props) => {
   const seekBg = useRef();
   const seekBar = useRef();
 
-  const [track, setTrack] = useState(songsData[0]);
+  const [track, setTrack] = useState(songsData[3]);
   const [playStatus, setPlayStutus] = useState(false);
   const [time, setTime] = useState({
     currentTime: {
